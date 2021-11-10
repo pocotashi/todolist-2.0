@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/todolistsDB", {useNewurlParser: true})
+mongoose.connect("mongodb+srv://admin-tashi:test123@cluster0.rfgon.mongodb.net/todolistsDB", {useNewurlParser: true})
 
 const itemSchema = {
   name: String
