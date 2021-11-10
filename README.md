@@ -1,6 +1,6 @@
 <!-- @format -->
 
-You node the project with either nodemon app.js or node app.js
+You run the project with either nodemon app.js or node app.js
 
 This is a todo app that has server side connectivity and database which stores the input from the todo web app.
 
